@@ -39,7 +39,7 @@ taiga:
     - TAIGA_DB_USER=taiga
     - TAIGA_DB_PASSWORD=password
     - HTTPS_SELF_DOMAIN=${DOMAIN}
-    - TAIGA_SSL=True
+    - TAIGA_SSL=False
     - TAIGA_SLEEP=10
   volumes:
     - ${DATA}:/usr/src/taiga-back/media
